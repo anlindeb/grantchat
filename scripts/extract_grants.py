@@ -160,7 +160,7 @@ def process_grants_search_csvs(csv_pattern):
 
 
                 # Generate link using the opportunity ID
-                grant_details["link"] = f"https://simpler.grants.gov/opportunity//{opportunity_id}" if opportunity_id else None
+                grant_details["link"] = f"https://simpler.grants.gov/opportunity/{opportunity_id}" if opportunity_id else None
 
                 # Ensure all target JSON keys exist, even if the source column was missing
                 for mapped_csv_col, json_key in COLUMN_MAPPING.items():
