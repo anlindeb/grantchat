@@ -1,0 +1,50 @@
+{
+  "schoolDistrictName": "Springfield Independent School District",
+  "fiscalYear": "2024-2025",
+  "totalAnnualBudgetUSD": 5500000,
+  "fundingSources": [
+    {"source": "State Funding", "amountUSD": 3000000, "percentageOfTotalBudget": 54.5},
+    {"source": "Local Property Taxes", "amountUSD": 2000000, "percentageOfTotalBudget": 36.4},
+    {"source": "Federal Grants (Existing)", "amountUSD": 300000, "percentageOfTotalBudget": 5.5},
+    {"source": "Fundraising & Donations", "amountUSD": 200000, "percentageOfTotalBudget": 3.6}
+  ],
+  "majorExpenditures": [
+    {"category": "Salaries & Benefits", "amountUSD": 3500000, "percentageOfTotalBudget": 63.6},
+    {"category": "Instructional Materials & Supplies", "amountUSD": 500000, "percentageOfTotalBudget": 9.1},
+    {"category": "Operations & Maintenance", "amountUSD": 700000, "percentageOfTotalBudget": 12.7},
+    {"category": "Transportation", "amountUSD": 300000, "percentageOfTotalBudget": 5.5},
+    {"category": "Technology & Infrastructure (Current)", "amountUSD": 250000, "percentageOfTotalBudget": 4.5},
+    {"category": "Professional Development", "amountUSD": 100000, "percentageOfTotalBudget": 1.8},
+    {"category": "Extracurricular Activities", "amountUSD": 150000, "percentageOfTotalBudget": 2.7}
+  ],
+  "studentPopulation": {
+    "totalStudents": 3200,
+    "lowIncomeStudentsPercentage": 45,
+    "studentsWithDisabilitiesPercentage": 15,
+    "englishLanguageLearnersPercentage": 12
+  },
+  "strategicPriorities": [
+    "Improving STEM education outcomes across all grade levels.",
+    "Enhancing literacy programs for K-3 students.",
+    "Increasing equitable access to modern technology for all students.",
+    "Expanding professional development for teachers in data-driven instruction and technology integration."
+  ],
+  "currentFinancialNarrative": "Springfield Independent School District maintains a balanced budget primarily through state and local funding. While existing federal grants support targeted programs, there is a significant need for dedicated funding to address large-scale initiatives, such as district-wide technology upgrades and specialized STEM program enhancements. Our current operational budget for technology covers maintenance and incremental replacements but is insufficient for transformative projects. We are actively seeking grant opportunities to bridge this gap and achieve our strategic priorities without impacting essential services.",
+  "unfundedNeeds": [
+    {
+      "need": "District-wide Classroom Technology Modernization",
+      "estimatedCostUSD": 750000,
+      "description": "Upgrade interactive whiteboards, projectors, and provide 1:1 student devices (laptops/tablets) for grades 6-12 to support digital curriculum and personalized learning."
+    },
+    {
+      "need": "K-5 STEM Lab Establishment",
+      "estimatedCostUSD": 350000,
+      "description": "Create dedicated STEM labs in all elementary schools with age-appropriate equipment (robotics kits, science tools, coding resources) and teacher training."
+    },
+    {
+      "need": "Data Analytics Platform for Student Achievement",
+      "estimatedCostUSD": 150000,
+      "description": "Implement a district-wide data analytics platform to track student progress, identify at-risk students, and provide teachers with actionable insights for instruction."
+    }
+  ]
+}
